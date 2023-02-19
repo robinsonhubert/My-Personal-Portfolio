@@ -1,126 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Portfolio</title>
-    <link rel="stylesheet" href="CSS/index.css">
-    <script src="https://kit.fontawesome.com/c7017b7a4f.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="Asset/index.css">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
-<!-- MAIN CONTAINER -->
-<div id="main_container">
-    <!-- HEADER -->
-    <div id="header">
-      <!-- LOGOTYPE/NAME -->
-      <div class="header_logotype_container">
-        <h1 class="logotype_name">Jenard Robinson <span class="purple">Hubert</span></h1>
-        <h2 class="logotype_occupation">Frontend Web Developer</h2>
-      </div>
-      <!-- MAIN MENU -->
-      <div class="header_menu_container">
-        
-        <div class="clear"></div>
-        <ul class="header_menu horizontal_list">
-          <li><a class="no_border purple" href="#">Profile</a></li>
-          <li><a href="#">Education</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Work Experience</a></li>
-          <li><a href="#">Featured Projects</a></li>
-        </ul>
+   <nav class="navbar" id="navbar"> 
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+
+    </ul>
+   </nav>
+  
+   <section id="home">
+    <div class="main">
+      <h1 class="headings">I AM <br>JENARD ROBINSON HUBERT</h1>
+      <button class="btn">
+        Hire me
+      </button>
+    </div>
+   </section>
+
+   <section id="about">
+    <h1 class="headings">ABOUT ME</h1>
+    <div id="pic">
+      <img src="Asset/Images/profile.jpg" alt="">
+      <div id="intro">
+        <h2>JENARD ROBINSON HUBERT</h2>
+        <p>You can call me <span id="Thivaan">THIVAAN</span>.I'm passionate about technology and human behavior, hard-worker and a fast-learner.Strong in design and integration with intuitive problem-solving skills. Proficient in HTML, CSS and JAVASCRIPT. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.</p>
+      
       </div>
     </div>
-    <!-- LEFT COL -->
-    <div id="left_col">
-      <div class="profile_frame">
-        <div class="profile_picture">
-        <img src="Images/profile.jpg" alt="profile picture" style="height: 100%;width: 100%;">
-      </div></div>
-      <div class="hello_content">
-        <h2>Hello!</h2>
-        <p>I'm passionate about technology and human behavior, hard-worker and a fast-learner.Strong in design and integration with intuitive problem-solving skills. Proficient in HTML, CSS and JAVASCRIPT. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.</p>
+   </section>
+
+   <section id="resume" class="resume section-show">
+   <div class="container">
+
+    <div class="section-title">
+      <h2 style="color: rgb(194, 41, 41);">Resume</h2>
+      <p style="color: beige";>Check My Resume</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h3 class="resume-title" style="color: aqua">Education</h3>
+          <ul style="color: white;">
+            <li>Finished my studies at St Patrick's College</li>
+            <li>Good at English</li>
+            <li>Good at Tech Field</li>
+            
+          </ul>
+        <h3 class="resume-title" style="color: aqua;">E-certificate</h3>
+            <li style="color: white;">Responsive Web Design - Freecodecamp</li>
+            <li style="color: white;">Visme Presentation Course</li>
       </div>
-      <div class="contact_details_content">
-        <h2>Contact details</h2>
-        <p class="purple">Phone:</p>
-        <p>+94742959228</p>
-        <p class="purple">Email:</p>
-        <p>kingthivaan01@gmail.com</p>
-        <p class="purple">Adress:</p>
-        <p>22, Izhanthaikulam Rd,</p>
-        <p>Ariyalai, Jaffna</p>
-        <p>40000</p>
+      <div class="col-lg-6">
+        <h3 class="resume-title"  style="color: aqua;">Work Experience</h3>
+        
+          <ul>
+            <li style="color: white;">Worked as a Freelancer</li>
+          </ul>
+          <div class="col-lg-6"><br>
+            <h3 class="resume-title" style="color: aqua;">Skills</h3>
+           <ul style="color: white;">
+               <li> HTML&amp;CSS</li>
+               <li>bootstrap</li>
+               <li>JavaScript</li>
+              </ul>        
       </div>
-     
       
     </div>
-    <!-- PROFILE CONTENT -->
-    <div id="content_container">				
-      <div class="block">
-        <h1>Profile</h1>
-        <blockquote class="profile_quote">
-          <p>"There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning."</p>
-          <p>Jiddu Krishnamurti.</p>
-          <span class="entypo-quote"></span>
-        </blockquote>
-      </div>
-      <div class="block">
-        <h2>A few words about me</h2>
-        <p>Until now, in my life, I change from active moments with a lot of variety, challenges and improvisations, to moments of tranquility and stability, being difficult to stay in a place during a long time. I consider myself a tolerant and respectful person with open mind and quite honest. I really like to solving problems in the tech-world.</p>				
-      </div>
-      <div class="horizontal_line">
-        <div class="line_left"></div>
-        <div class="left_circle"></div>
-        <div class="central_circle"></div>
-        <div class="right_circle"></div>
-        <div class="line_right"></div>
-      </div>
-      <div class="block">
-        <h2>Philosophy</h2>
-        <p>I believe in ethic and moral not in imposed rules that you "have to" do or follow.</p>
-        </div>
-      </div>
-      <div class="horizontal_line">
-        <div class="line_left"></div>
-        <div class="left_circle"></div>
-        <div class="central_circle"></div>
-        <div class="right_circle"></div>
-        <div class="line_right"></div>
-      </div><br>
-      <div class="last block">
-        <h2>Interests</h2>
-        <p>I'm passionate about technology and human behavior, both determine almost all my interests and hobbies:</p>
-        <ul>
-          <li>Traveling</li>
-          <li>Cricket</li>
-          <li>Web Developing</li>
-          <li>Computer Gaming</li>
-          <li>Manga and Anime</li>
-        </ul>
-      </div>
+
+  </div>
+</div>
+</section><br>
+
+<section id="portfolio">
+  <h1 class="headings">PORTFOLIO</h1>
+  <div class="gallery">
+    <img src="Asset/Images/calculator.jpg" alt="">
+    <img src="Asset/Images/Quiz App.jpg" alt="">
+    <img src="Asset/Images/Games Dashboard.jpeg" alt="">
+    <img src="Asset/Images/Music app.jpeg" alt="">
+    <img src="Asset/Images/traveller.jpeg" alt="">
+    <img src="Asset/Images/Photography.jpeg" alt="">
+  </div>
+</section>
+
+<section id="services">
+  <h1 class="headings">SERVICES</h1>
+  <div class="row">
+    <div class="box">
+      <img src="Asset/Images/FE.png" alt="">
+      <h1 class="headings">Front-end Development</h1>
+      <p>Creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site.</p>
     </div>
-    <div class="clear"></div>
-    <!-- FOOTER -->
-    <div class="footer-basic">
-        <footer>
-            <div class="social"><a href="" class="me-4 link-secondary"><i class="fab fa-instagram"></i></a><a href="" class="me-4 link-secondary">
-                <i class="fab fa-github"></i>
-              </a><a href="" class="me-4 link-secondary">
-                <i class="fab fa-twitter"></i>
-              </a><a href="" class="me-4 link-secondary">
-                <i class="fab fa-linkedin"></i>
-              </a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Terms</a></li>
-                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-            </ul>
-            <p class="copyright">My Personal Porfolio © 2023</p>
-        </footer>
+    <div class="box">
+      <img src="Asset/Images/BE.png" alt="">
+      <h1 class="headings">Back-end Development</h1>
+      <p>Working on server-side software, which focuses on everything you can't see on a website. </p>
     </div>
+    <div class="box">
+      <img src="Asset/Images/cam.png" alt="">
+      <h1 class="headings">Photography</h1>
+      <p> Use a variety of photographic equipment to capture events, people, objects or scenes for records, art or commercial use</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h1 class="headings">CONTACT</h1>
+  <form action="" class="form">
+    <input type="text" name="name" class="input" placeholder="Enter Your Name">
+    <input type="email" name="email" class="input" placeholder="Enter Your Email">
+    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+    <input type="submit" value="SEND" id="send">
+  </form>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
 </body>
 </html>

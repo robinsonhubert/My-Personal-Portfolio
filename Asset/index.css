@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+  
+   /* Navbar */
+   #navbar{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);  
+  position: sticky;
+   }
+  .navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+  }
+  .navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+  }
+  .navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+  } 
+  
+  /* Home Section */
+  #home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  #home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(Images/BG.jpeg) no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;  
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  .headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+  }
+  .btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+  }
+  .btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white,0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+  }
+  
+  /* About Section */
+  #about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  #pic{
+    display: flex;
+  }
+  #pic img{
+    width: 575px;
+    height: 400px;
+  }
+  #intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+  }
+  #intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  #Thivaan{
+    color: red;
+    font-weight: bold;
+    font-family: monospace;
+  }
+  
+  /* Portfolio Section */
+  #portfolio{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0,0.9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+  
+  }
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+  .gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  
+  /* # Resume */
+  
+  #resume{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  section .container {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+  }
+  
+  
+  
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  div {
+    display: block;
+  }
+  .resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #18d26e;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #18d26e;
+    border: 2px solid #18d26e;
+  }
+  
+  /* Services Section */
+  #services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div .row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+   
+  }
+  div .box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255,45,45)50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .3s;
+  
+  }
+  div .box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
+  }
+  div .box img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Contact Section */
+  #contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+  }
+  .input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+  }
+  #msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+  }
+  #send{
+    padding: 10px;
+    width: 10%;
+    margin: 40px;
+    border: none;
+    outline: none;
+  }
+  #send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+  }
