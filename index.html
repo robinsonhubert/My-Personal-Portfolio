@@ -1,133 +1,1526 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="Asset/index.css">
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<html lang="en" class="one-page-layout js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths modern-layout" data-mobile-classic-layout="false" data-classic-layout="false" data-prev-animation="16" data-next-animation="15" data-random-animation="false" style=""><!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" --><head><style>.LGLeeN-keyboard-shortcuts-view{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex}.LGLeeN-keyboard-shortcuts-view table,.LGLeeN-keyboard-shortcuts-view tbody,.LGLeeN-keyboard-shortcuts-view td,.LGLeeN-keyboard-shortcuts-view tr{background:inherit;border:none;margin:0;padding:0}.LGLeeN-keyboard-shortcuts-view table{display:table}.LGLeeN-keyboard-shortcuts-view tr{display:table-row}.LGLeeN-keyboard-shortcuts-view td{-moz-box-sizing:border-box;box-sizing:border-box;display:table-cell;color:#000;padding:6px;vertical-align:middle;white-space:nowrap}.LGLeeN-keyboard-shortcuts-view td .VdnQmO-keyboard-shortcuts-view--shortcut-key{background-color:#e8eaed;border-radius:2px;border:none;-moz-box-sizing:border-box;box-sizing:border-box;color:inherit;display:inline-block;font-family:Google Sans Text,Roboto,Arial,sans-serif;line-height:16px;margin:0 2px;min-height:20px;min-width:20px;padding:2px 4px;position:relative;text-align:center}
+</style><style>.gm-control-active>img{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:focus>img:nth-child(1),.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1),.gm-control-active:disabled>img:nth-child(1){display:none}.gm-control-active:focus>img:nth-child(2),.gm-control-active:hover>img:nth-child(2){display:block}.gm-control-active:active>img:nth-child(3){display:block}.gm-control-active:disabled>img:nth-child(4){display:block}sentinel{}
+</style><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans_old:400,500,700|Google+Sans+Text:400&amp;lang=en"><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400&amp;text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&amp;lang=en"><style>.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}.gm-ui-hover-effect>span{background-color:#000}@media (forced-colors:active),(prefers-contrast:more){.gm-ui-hover-effect>span{background-color:ButtonText}}sentinel{}
+</style><style>.gm-style .gm-style-cc a,.gm-style .gm-style-cc button,.gm-style .gm-style-cc span,.gm-style .gm-style-mtc div{font-size:10px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.gm-style .gm-style-cc a,.gm-style .gm-style-cc button,.gm-style .gm-style-cc span{outline-offset:3px}sentinel{}
+</style><style>@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style>.dismissButton{background-color:#fff;border:1px solid #dadce0;color:#1a73e8;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;font-family:Roboto,sans-serif;font-size:14px;height:36px;cursor:pointer;padding:0 24px}.dismissButton:hover{background-color:rgba(66,133,244,.04);border:1px solid #d2e3fc}.dismissButton:focus{background-color:rgba(66,133,244,.12);border:1px solid #d2e3fc;outline:0}.dismissButton:focus:not(:focus-visible){background-color:#fff;border:1px solid #dadce0;outline:none}.dismissButton:focus-visible{background-color:rgba(66,133,244,.12);border:1px solid #d2e3fc;outline:0}.dismissButton:hover:focus{background-color:rgba(66,133,244,.16);border:1px solid #d2e2fd}.dismissButton:hover:focus:not(:focus-visible){background-color:rgba(66,133,244,.04);border:1px solid #d2e3fc}.dismissButton:hover:focus-visible{background-color:rgba(66,133,244,.16);border:1px solid #d2e2fd}.dismissButton:active{background-color:rgba(66,133,244,.16);border:1px solid #d2e2fd;-webkit-box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15);-moz-box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15);box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15)}.dismissButton:disabled{background-color:#fff;border:1px solid #f1f3f4;color:#3c4043}sentinel{}
+</style><style>.gm-style-moc{background-color:rgba(0,0,0,.45);pointer-events:none;text-align:center;-webkit-transition:opacity ease-in-out;-o-transition:opacity ease-in-out;transition:opacity ease-in-out}.gm-style-mot{color:white;font-family:Roboto,Arial,sans-serif;font-size:22px;margin:0;position:relative;top:50%;-moz-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%)}sentinel{}
+</style><style>.gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}</style>
+    
+		<meta charset="utf-8">
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Empathy - Responsive HTML5 vCard Template">
+        <meta name="keywords" content="vcard, html5, portfolio">
+        <meta name="author" content="Pixelwars">
 
-</head>
-<body>
-   <nav class="navbar" id="navbar"> 
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact Me</a></li>
+        <title>Empathy</title>
 
-    </ul>
-   </nav>
-  
-   <section id="home">
-    <div class="main">
-      <h1 class="headings">I AM <br>JENARD ROBINSON HUBERT</h1>
-      <button class="btn">
-        Hire me
-      </button>
-    </div>
-   </section>
-
-   <section id="about">
-    <h1 class="headings">ABOUT ME</h1>
-    <div id="pic">
-      <img src="Asset/Images/profile.jpg" alt="">
-      <div id="intro">
-        <h2>JENARD ROBINSON HUBERT</h2>
-        <p>You can call me <span id="Thivaan">THIVAAN</span>.I'm passionate about technology and human behavior, hard-worker and a fast-learner.Strong in design and integration with intuitive problem-solving skills. Proficient in HTML, CSS and JAVASCRIPT. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.</p>
-      
-      </div>
-    </div>
-   </section>
-
-   <section id="resume" class="resume section-show">
-   <div class="container">
-
-    <div class="section-title">
-      <h2 style="color: rgb(194, 41, 41);">Resume</h2>
-      <p style="color: beige";>Check My Resume</p>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-6">
-        <h3 class="resume-title" style="color: aqua">Education</h3>
-          <ul style="color: white;">
-            <li>Finished my studies at St Patrick's College</li>
-            <li>Good at English</li>
-            <li>Good at Tech Field</li>
+        <!-- FAV and TOUCH ICONS -->
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png">
+		 
+        <!-- FONTS -->
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic" rel="stylesheet" type="text/css">
             
-          </ul>
-        <h3 class="resume-title" style="color: aqua;">E-certificate</h3>
-            <li style="color: white;">Responsive Web Design - Freecodecamp</li>
-            <li style="color: white;">Visme Presentation Course</li>
-      </div>
-      <div class="col-lg-6">
-        <h3 class="resume-title"  style="color: aqua;">Work Experience</h3>
+        <!-- STYLES -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+        <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+        <link rel="stylesheet" type="text/css" href="js/nprogress/nprogress.css">
+        <link rel="stylesheet" type="text/css" href="js/jquery.magnific-popup/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="js/jquery.uniform/uniform.default.css">
+        <link rel="stylesheet" type="text/css" href="css/animations.css">
+        <link rel="stylesheet" type="text/css" href="css/align.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/768.css">
         
-          <ul>
-            <li style="color: white;">Worked as a Freelancer</li>
-          </ul>
-          <div class="col-lg-6"><br>
-            <h3 class="resume-title" style="color: aqua;">Skills</h3>
-           <ul style="color: white;">
-               <li> HTML&amp;CSS</li>
-               <li>bootstrap</li>
-               <li>JavaScript</li>
-              </ul>        
-      </div>
-      
-    </div>
+        <!-- INITIAL SCRIPTS -->
+		<script src="js/jquery-1.12.1.min.js"></script>
+        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/modernizr.min.js"></script>
+        <!--[if lt IE 9]>
+            <script src="js/ie.js"></script>
+        <![endif]-->
+                
+		<!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+        
+	<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/53/8/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/53/8/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/53/8/map.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/53/8/marker.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/53/8/controls.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/53/8/onion.js"></script></head>
+    
+    
+    
+	<body data-new-gr-c-s-check-loaded="14.1113.0" data-gr-ext-installed="">
+    	
+        
+        
+        
+        <!-- PAGE -->
+		<div id="page" class="hfeed site">
+			
+            
+            
+            <!-- HEADER -->
+            <header id="masthead" class="header" role="banner">
+            	
+                <a class="menu-toggle toggle-link"></a>
+                
+                <h1 class="site-title mobile-title">JENARD ROBINSON HUBERT</h1>
+                
+                <!-- header-wrap -->
+                <div class="header-wrap">
+                	
+                    <img src="images/site/avatar.jpg" alt="avatar">
+                
+                    <h1 class="site-title">JENARD ROBINSON HUBERT</h1>
+                    
+                    <!-- NAV MENU -->
+                    <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+                        <div class="nav-menu">
+                            <ul>
+                                
+                                <!-- InstanceBeginEditable name="Menu-Content" -->
+                                <li class="current_page_item">
+                                    <a href="#/home">
+                                        <i class="pe-7s-home"></i>Home</a>
+                                </li>
+                                <li class="">
+                                    <a href="#/about">
+                                        <i class="pe-7s-user"></i>About Me</a>
+                                </li>
+                                <li class="">
+                                    <a href="#/resume">
+                                        <i class="pe-7s-id"></i>Resume</a>
+                                </li>
+                                <li class="">
+                                    <a href="#/portfolio">
+                                        <i class="pe-7s-glasses"></i>Portfolio</a>
+                                </li>
+                                <li class="">
+                                    <a href="#/blog">
+                                        <i class="pe-7s-notebook"></i>Blog</a>
+                                </li>
+                                <li class="">
+                                    <a href="#/contact">
+                                        <i class="pe-7s-call"></i>Contact</a>
+                                </li>
 
-  </div>
-</div>
-</section><br>
 
-<section id="portfolio">
-  <h1 class="headings">PORTFOLIO</h1>
-  <div class="gallery">
-    <img src="Asset/Images/calculator.jpg" alt="">
-    <img src="Asset/Images/Quiz App.jpg" alt="">
-    <img src="Asset/Images/Games Dashboard.jpeg" alt="">
-    <img src="Asset/Images/Music app.jpeg" alt="">
-    <img src="Asset/Images/traveller.jpeg" alt="">
-    <img src="Asset/Images/Photography.jpeg" alt="">
-  </div>
-</section>
+                            <!-- InstanceEndEditable -->
+                                
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- NAV MENU -->
+                    
+                    
+                    
+                    <!-- SEARCH --> 
+                    <div class="header-search">
+                        <form role="search" method="get" id="search-form" action="#">
+                          <input type="text" value="" name="s" id="search" placeholder="enter word">
+                          <input type="submit" id="search-submit" title="Search" value="→">
+                        </form>
+                    </div>
+                    <!-- SEARCH -->
+                    
+                    <!-- header-bottom -->
+                    <div class="header-bottom">
+                    
+                        <!-- SOCIAL -->
+                        <ul class="social">
+                            <li>
+                                <a class="facebook" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="twitter" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="linkedin" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="instagram" href="#"></a>
+                            </li>
+                        </ul>
+                        <!-- SOCIAL -->
+                    	
+                        <!-- copy-text -->
+                        <div class="copy-text">
+                        	<p>© 2015 Pixelwars</p>
+                        </div>
+                        <!-- copy-text -->
+                        
+                    </div>
+                    <!-- header-bottom -->
+                    
+                    
+                </div>
+                <!-- header-wrap -->
+                
+			</header>
+            <!-- HEADER -->
+            
+            
+            
+            
+            
+            <!-- .site-main -->
+		  <div id="main" class="site-main">
+            
+            
+            
+				<!-- InstanceBeginEditable name="Page-Content" -->
+				
+                
+               	
+                <!-- PAGE : HOME -->
+                <section id="home" class="pt-page page-layout light-text home-section has-bg-img page-current" style="background-image:url(https://www.freepik.com/free-photos-vectors/work-background)">
+                	<!-- .content -->
+                    <div class="content">
+                    	<!-- .layout-medium -->
+                        <div class="layout-medium">
+                        	
+                            <h4>Hi, I am</h4>
+                            <h2>Jenard Robinson Hubert</h2>
+                            <h4>I am <strong id="typist-element" data-typist="a web developer., an web designer."></strong></h4>          
+                            
+    					</div>
+                        <!-- .layout-medium -->
+                    </div>
+                    <!-- .content -->
+                </section>
+                <!-- PAGE : HOME -->
+                
+                
+                
+                
 
-<section id="services">
-  <h1 class="headings">SERVICES</h1>
-  <div class="row">
-    <div class="box">
-      <img src="Asset/Images/FE.png" alt="">
-      <h1 class="headings">Front-end Development</h1>
-      <p>Creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site.</p>
-    </div>
-    <div class="box">
-      <img src="Asset/Images/BE.png" alt="">
-      <h1 class="headings">Back-end Development</h1>
-      <p>Working on server-side software, which focuses on everything you can't see on a website. </p>
-    </div>
-    <div class="box">
-      <img src="Asset/Images/cam.png" alt="">
-      <h1 class="headings">Photography</h1>
-      <p> Use a variety of photographic equipment to capture events, people, objects or scenes for records, art or commercial use</p>
-    </div>
-  </div>
-</section>
+                <!-- PAGE : ABOUT -->
+                <section id="about" class="pt-page page-layout">
+                	<!-- .content -->
+                    <div class="content">
+                    	<!-- .layout-medium -->
+                        <div class="layout-medium">
+    					
+                        
+                            <!-- page-title -->
+                            <h1 class="page-title">
+                                <i class="pe-7s-user"></i>about me
+                            </h1>
+                            <!-- page-title -->
+                                
+                            
+                            
+                            
+                            <!-- SERVICES -->
+                            
+                            <!-- section-title -->
+                            <div class="section-title center">    
+                                <h2>
+                                    <i>services</i>
+                                </h2>
+                            </div>
+                            <!-- section-title -->
+    
+                            <!-- row -->			
+                            <div class="row">
+    
+                                <!-- col -->	
+                                <div class="col-sm-6 col-md-3">
+    
+                                    <!-- service -->
+                                    <div class="service">
+                                        <!--<i class="pe-7s-glasses"></i>-->
+                                        <img src="images/site/icon-01.png" alt="image">
+                                        <h4>Copywriter</h4>
+                                        <p>I design super cool websites. It is a long established fact that a reader will be distracted by the readable content.</p>
+                                    </div>
+                                    <!-- service -->
+    
+                                </div>
+                                <!-- col -->
+    
+                                <!-- col -->
+                                <div class="col-sm-6 col-md-3">
+    
+                                    <!-- service -->
+                                    <div class="service">
+                                        <!--<i class="pe-7s-joy"></i>-->
+                                        <img src="images/site/icon-02.png" alt="image">
+                                        <h4>Game Dev</h4>
+                                        <p>I can design beautiful type faces for both digital and print media. It is a long established fact that a reader will be distracted.</p>
+                                    </div>
+                                    <!-- service -->
+    
+                                </div>
+                                <!-- col -->
+    
+                                <!-- col -->
+                                <div class="col-sm-6 col-md-3">
+    
+                                    <!-- service -->
+                                    <div class="service">
+                                        <!--<i class="pe-7s-rocket"></i>-->
+                                        <img src="images/site/icon-03.png" alt="image">
+                                        <h4>Management</h4>
+                                        <p>I write about web design. It is a long established fact that a reader will be distracted by the readable content.</p>
+                                    </div>
+                                    <!-- service -->
+    
+                                </div>
+                                <!-- col -->
+        
+                                <!-- col -->
+                                <div class="col-sm-6 col-md-3">
+    
+                                    <!-- service -->
+                                    <div class="service">
+                                        <!--<i class="pe-7s-scissors"></i>-->
+                                        <img src="images/site/icon-04.png" alt="image">
+                                        <h4>Problem Solver</h4>
+                                        <p>I have strong project management skills. It is a long established fact that a reader will be distracted by the readable content.</p>
+                                    </div>
+                                    <!-- service -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                            </div>
+                            <!-- row -->	
+                            <!-- SERVICES -->
+                            
+        
+                            
+                            
+                            
+                            <!-- PROCESS -->
+                            
+                            <!-- section-title -->
+                            <div class="section-title center">    
+                                <h2>
+                                    <i>work procces</i>
+                                </h2>
+                            </div>
+                            <!-- section-title -->
+    
+                            
+                            <!-- row -->
+                            <div class="row">
+                                
+                                <!-- col -->
+                                <div class="col-xs-4 col-sm-2">
+    
+                                    <!-- process -->
+                                    <div class="process">
+                                        <i class="pe-7s-chat"></i>
+                                        <!--<img src="images/site/icon-03.png" alt="image"/>-->
+                                        <h4>DISCOVER</h4>
+                                    </div>
+                                    <!-- process -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                                <!-- col -->    
+                                <div class="col-xs-4 col-sm-2">
+    
+                                    <!-- process -->
+                                    <div class="process">
+                                        <i class="pe-7s-light"></i>
+                                        <h4>IDEA</h4>
+                                    </div>
+                                    <!-- process -->
+    
+                                </div>
+                                <!-- col -->
+    
+                                <!-- col -->
+                                <div class="col-xs-4 col-sm-2">
+    
+                                    <!-- process -->
+                                    <div class="process">
+                                        <i class="pe-7s-vector"></i>
+                                        <h4>DESIGN</h4>
+                                    </div>
+                                    <!-- process -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                                <!-- col -->    
+                                <div class="col-xs-4 col-sm-2">
+    
+                                    <!-- process -->
+                                    <div class="process">
+                                        <i class="pe-7s-network"></i>
+                                        <h4>DEVELOP</h4>
+                                    </div>
+                                    <!-- process -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                                <!-- col -->    
+                                <div class="col-xs-4 col-sm-2">
+    
+                                    <!-- process -->
+                                    <div class="process">
+                                        <i class="pe-7s-browser"></i>
+                                        <h4>TEST</h4>
+                                    </div>
+                                    <!-- process -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                                <!-- col -->    
+                                <div class="col-xs-4 col-sm-2">
+    
+                                    <!-- process -->
+                                    <div class="process">
+                                        <i class="pe-7s-rocket"></i>
+                                        <h4>LAUNCH</h4>
+                                    </div>
+                                    <!-- process -->
+    
+                                </div>
+                                <!-- col -->
+    
+                            </div>
+                            <!-- row -->
+                            <!-- PROCESS -->
+                            
+                            
+                            
+                            
+                            
+                            <!-- CLIENTS -->
+                            
+                            <!-- section-title -->
+                            <div class="section-title center">    
+                                <h2>
+                                    <i>clients</i>
+                                </h2>
+                            </div>
+                            <!-- section-title -->
+    
+                            <!-- row -->
+                            <div class="row"> 
+                                
+                                <!-- col -->
+                                <div class="col-xs-4 col-md-2">
+    
+                                    <!-- client -->
+                                    <div class="client">
+                                        <a href="#">
+                                            <img src="images/clients/client-01.png" alt="client">
+                                        </a>
+                                    </div>
+                                    <!-- client -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                                <!-- col -->    
+                                <div class="col-xs-4 col-md-2">
+    
+                                    <!-- client -->
+                                    <div class="client">
+                                        <a href="#">
+                                            <img src="images/clients/client-02.png" alt="client">
+                                        </a>
+                                    </div>
+                                    <!-- client -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                                <!-- col -->    
+                                <div class="col-xs-4 col-md-2">
+    
+                                    <!-- client -->
+                                    <div class="client">
+                                        <a href="#">
+                                            <img src="images/clients/client-03.png" alt="client">
+                                        </a>
+                                    </div>
+                                    <!-- client -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                                <!-- col -->    
+                                <div class="col-xs-4 col-md-2">
+    
+                                    <!-- client -->
+                                    <div class="client">
+                                        <a href="#">
+                                            <img src="images/clients/client-04.png" alt="client">
+                                        </a>
+                                    </div>
+                                    <!-- client -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                                <!-- col -->    
+                                <div class="col-xs-4 col-md-2">
+    
+                                    <!-- client -->
+                                    <div class="client">
+                                        <a href="#">
+                                            <img src="images/clients/client-05.png" alt="client">
+                                        </a>
+                                    </div>
+                                    <!-- client -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                                <!-- col -->    
+                                <div class="col-xs-4 col-md-2">
+    
+                                    <!-- client -->
+                                    <div class="client">
+                                        <a href="#">
+                                            <img src="images/clients/client-06.png" alt="client">
+                                        </a>
+                                    </div>
+                                    <!-- client -->
+    
+                                </div>
+                                <!-- col -->
+    
+                            </div>
+                            <!-- row -->
+                            <!-- CLIENTS -->
+                            
+                            
+                            
+                            <!-- FUN FACT -->
+                            
+                            <!-- section-title -->
+                            <div class="section-title center">    
+                                <h2>
+                                    <i>fun fact</i>
+                                </h2>
+                            </div>
+                            <!-- section-title -->
+    
+                            <!-- row -->
+                            <div class="row">
+                                
+                                <!-- col -->
+                                <div class="col-xs-6 col-sm-3">
+    
+                                    <!-- fun-fact -->
+                                    <div class="fun-fact">
+                                        <i class="pe-7s-map-2"></i>
+                                        <!--<img src="images/site/icon-03.png" alt="image"/>-->
+                                        <h4>24 Countries Visited</h4>
+                                    </div>
+                                    <!-- fun-fact -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                                <!-- col -->
+                                <div class="col-xs-6 col-sm-3">
+    
+                                    <!-- fun-fact -->
+                                    <div class="fun-fact">
+                                        <i class="pe-7s-news-paper"></i>
+                                        <h4>72 Articles Published</h4>
+                                    </div>
+                                    <!-- fun-fact -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                                <!-- col -->
+                                <div class="col-xs-6 col-sm-3">
+    
+                                    <!-- fun-fact -->
+                                    <div class="fun-fact">
+                                        <i class="pe-7s-coffee"></i>
+                                        <h4>20.000 Cups Of Coffee</h4>
+                                    </div>
+                                    <!-- fun-fact -->
+    
+                                </div>
+                                <!-- col -->
+                                
+                                <!-- col -->
+                                <div class="col-xs-6 col-sm-3">
+    
+                                    <!-- fun-fact -->
+                                    <div class="fun-fact">
+                                        <i class="pe-7s-medal"></i>
+                                        <h4>12 Awards Won</h4>
+                                    </div>
+                                    <!-- fun-fact -->
+    
+                                </div>
+                                <!-- col -->
+    
+                            </div>
+                            <!-- row -->
+                            <!-- FUN FACT -->
+        
+                            
+        
+                            
+                                
+                            
+                            
+                            <!-- section-title -->
+                            <div class="section-title center">    
+                                <h2>
+                                    <i>other pages</i>
+                                </h2>
+                            </div>
+                            <!-- section-title -->
+    
+                            <p class="center">
+                                <a class="button" href="404.html">404</a>
+                                <a class="button" href="blog.html">Blog</a>
+                                <a class="button" href="blog-single.html">Blog Single</a>
+                                <a class="button" href="form-elements.html">Form Elements</a>
+                                <a class="button" href="grid.html">Grid</a>
+                                <a class="button" href="shortcodes.html">Shortcodes</a>
+                                <a class="button" href="typography.html">Typography</a>
+                            </p>
+                            
+                        
+                            
+    					</div>
+                        <!-- .layout-medium -->
+                    </div>
+                    <!-- .content -->
+                </section>
+                <!-- PAGE : ABOUT -->
+    
+    
+    
+    
+    
+                <!-- PAGE : RESUME -->
+                <section id="resume" class="pt-page page-layout">
+                	<!-- .content -->
+                    <div class="content">
+                    	<!-- .layout-medium -->
+                        <div class="layout-medium">
+    
+    					
+                            <!-- page-title -->
+                            <h1 class="page-title">
+                                <i class="pe-7s-id"></i>resume
+                            </h1>
+                            <!-- page-title -->
+        
+        
+                            <!-- row -->
+                            <div class="row">
+        
+        
+                                <!-- col -->
+                                <div class="col-sm-7">
+        
+        
+                                    <div class="event">
+                                        <h2>WORK HISTORY</h2>
+                                        <p>
+                                        	<i class="pe-7s-ribbon"></i>
+                                       	 	<!--<img src="images/site/icon-03.png" alt="image"/>-->
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="event">
+                                        <h3>Dec 2013 - Current</h3>
+                                        <h4>Front End Web Developer</h4>
+                                        <h5>Pixelwars Inc.</h5>
+                                        <p>I currently work for Pixelwars creative studio. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+    
+    
+                                    <div class="event">
+                                        <h3>Jun 2012 - Dec 2013</h3>
+                                        <h4>Web Developer</h4>
+                                        <h5>Google Inc.</h5>
+                                        <p>I worked as a Web Developer at Google for 3 years. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+    
+                                    <div class="event">
+                                        <h3>2006</h3>
+                                        <h4>Exclusive Author</h4>
+                                        <h5>Envato Inc.</h5>
+                                        <p>I am an Elite Author at Envato. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+                                    
+                                    <div class="event">
+                                        <h2>EDUCATION</h2>
+                                        <p>
+                                        	<i class="pe-7s-study"></i>
+                                       	 	<!--<img src="images/site/icon-03.png" alt="image"/>-->
+                                        </p>
+                                    </div>
+    
+                                    <div class="event">
+                                        <h3>2002</h3>
+                                        <h4>Atom Science</h4>
+                                        <h5>Stanford University</h5>
+                                        <p>I studied atomic stuff at Stanford University. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+    
+    
+                                    <div class="event">
+                                        <h3>2010</h3>
+                                        <h4>Software Engineering</h4>
+                                        <h5>Harvard University</h5>
+                                        <p>I got my Master Degree at Harvard University. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+    
+                                    <div class="event">
+                                        <h3>2006</h3>
+                                        <h4>Computer Science</h4>
+                                        <h5>MIT</h5>
+                                        <p>I studied Computer Science at MIT. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
+                                    </div>
+                                        
+                                    
+                                    <p><a href="#" class="button"><i class="pe-7s-download"></i>Download CV</a></p>
+                                    
+                                </div>
+                                <!-- col -->
+        
+        
+        
+        
+                                <!-- col -->
+                                <div class="col-sm-5">
+        
+        
+                                    <!-- section-title -->
+                                    <div class="section-title center">    
+                                        <h2>
+                                            <i>coding skills</i>
+                                        </h2>
+                                    </div>
+                                    <!-- section-title -->
+                                    
+        
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>HTML5</h4>
+                                        <div class="bar" data-percent="80">
+                                            <div class="progress" style="width: 80%;"><span>80</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
+    
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>CSS3</h4>
+                                        <div class="bar" data-percent="100">
+                                            <div class="progress" style="width: 100%;"><span>100</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
+    
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>jQuery</h4>
+                                        <div class="bar" data-percent="80">
+                                            <div class="progress" style="width: 80%;"><span>80</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
+    
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>Wordpress</h4>
+                                        <div class="bar" data-percent="60">
+                                            <div class="progress" style="width: 60%;"><span>60</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
+        
+        
+        
+        
+        
+                                    <!-- section-title -->
+                                    <div class="section-title center">    
+                                        <h2>
+                                            <i>design skills</i>
+                                        </h2>
+                                    </div>
+                                    <!-- section-title -->
+                                    
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>Fireworks</h4>
+                                        <div class="bar" data-percent="90">
+                                            <div class="progress" style="width: 90%;"><span>90</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
+    
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>Photoshop</h4>
+                                        <div class="bar" data-percent="70">
+                                            <div class="progress" style="width: 70%;"><span>70</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
+    
+                                    <!-- .skill-unit -->
+                                    <div class="skill-unit">
+                                        <h4>Illustrator</h4>
+                                        <div class="bar" data-percent="50">
+                                            <div class="progress" style="width: 50%;"><span>50</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- .skill-unit -->
+        
+        
+        
+                                    <!-- section-title -->
+                                    <div class="section-title center">    
+                                        <h2>
+                                            <i>TESTIMONIALS</i>
+                                        </h2>
+                                    </div>
+                                    <!-- section-title -->
+        
+        
+                                    <!-- Testimonial -->
+                                    <div class="testo">
+                                        <img src="images/site/testo-01.jpg" alt="someone">
+                                        <h4>Vincent Wood</h4>
+                                        <h5>CEO / Gravity Inc.</h5>
+                                        <p>He is a great and hardworking guy. I am so proud of i have him as my asistant. He helped me so much. Also i am so proud of i have him as my asistant. He helped me so much.</p>
+    
+                                    </div>
+                                    <!-- Testimonial -->
+    
+                                    <!-- Testimonial -->
+                                    <div class="testo">
+                                        <img src="images/site/testo-02.jpg" alt="someone">
+                                        <h4>Gary Morgan</h4>
+                                        <h5>Chemist / Freelancer</h5>
+                                        <p>He was a great co-worker and a friend. I would't be where i am without his support.</p>
+    
+                                    </div>
+                                    <!-- Testimonial -->
+    
+                                    <!-- Testimonial -->
+                                    <div class="testo">
+                                        <img src="images/site/testo-03.jpg" alt="someone">
+    
+                                        <h4>Jason Wilson</h4>
+                                        <h5>Lab Geek / Miami Metro</h5>
+                                        <p>He is ok. I don't really know him. He looks nice.</p>
+    
+                                    </div>
+                                    <!-- Testimonial -->
+                                        
+        
+                                </div>
+                                <!-- col -->
+        
+        
+                            </div>
+                            <!-- row -->
+                        
+                            
+    					</div>
+                        <!-- .layout-medium -->
+                    </div>
+                    <!-- .content -->
+                </section>
+                <!-- PAGE : RESUME -->
+    
+    
+    
+    
+    
+    
+                <!-- PAGE : PORTFOLIO -->
+                <section id="portfolio" class="pt-page page-layout portfolio">
+                	<!-- .content -->
+                    <div class="content">
+                    	<!-- .layout-medium -->
+                        <div class="layout-medium">
+    
+    					
+                        <!-- page-title -->
+                        <h1 class="page-title">
+                        	<i class="pe-7s-glasses"></i>my works
+                        </h1>
+                        <!-- page-title -->
+                        
+                        
+                        <!--FILTERS-->
+                        <ul id="filters" class="filters">
+                            <li class="current">
+                                <a href="#" data-filter="*">all</a>
+                            </li>
+                            <li>
+                                <a href="#" data-filter=".media">Media</a>
+                            </li>
+                            <li>
+                                <a href="#" data-filter=".illustration">Illustration</a>
+                            </li>
+                            <li>
+                                <a href="#" data-filter=".video">Video</a>
+                            </li>
+                        </ul>
+                        <!--FILTERS-->
+    
+    
+    
+                        <!-- PORTFOLIO -->
+                        <div class="portfolio-items media-grid masonry" data-layout="masonry" data-item-width="340" style="position: relative; height: 1105.64px;">
+    
+    
+    
+                            <!-- portfolio-item -->
+                            <div class="media-cell illustration hentry" style="position: absolute; left: 0px; top: 0px; width: 33.2692%;">
+    
+                                <div class="media-box">
+                                    <img src="images/portfolio/01.jpg" alt="portfolio-post">
+                                    <div class="mask"></div>
+                                    <a href="portfolio-item-01.html" class="ajax"></a>
+                                </div>
+    
+                                <div class="media-cell-desc">
+                                    <h3>Bookcard</h3>
+                                    <p class="category">a vcard theme</p>
+                                </div>
+    
+                            </div>
+                            <!-- portfolio-item -->
+    
+    
+                            <!-- portfolio-item -->
+                            <div class="media-cell media hentry" style="position: absolute; left: 346px; top: 0px; width: 33.2692%;">
+    
+                                <div class="media-box">
+                                    <img src="images/portfolio/02.jpg" alt="portfolio-post">
+                                    <div class="mask"></div>
+                                    <a href="portfolio-item-02.html" class="ajax"></a>
+                                </div>
+    
+                                <div class="media-cell-desc">
+                                    <h3>On The Desert</h3>
+                                    <p class="category">an illustration work</p>
+                                </div>
+    
+                            </div>
+                            <!-- portfolio-item -->
+    
+    
+                            <!-- portfolio-item - lightbox video -->
+                            <div class="media-cell illustration video hentry" style="position: absolute; left: 692px; top: 0px; width: 33.2692%;">
+    
+                                <div class="media-box">
+                                    <img src="images/portfolio/03.jpg" alt="portfolio-post">
+                                    <div class="mask"></div>
+                                    <!-- lightbox - video -->
+                                    <a href="https://vimeo.com/67658001" title="Lightbox Title" class="lightbox mfp-iframe"></a>
+                                    <!-- lightbox - video -->
+                                </div>
+    
+                                <div class="media-cell-desc">
+                                    <h3>Sleepy Games</h3>
+                                    <p class="category">lightbox video</p>
+                                </div>
+    
+                            </div>
+                            <!-- portfolio-item - lightbox video -->
+    
+    
+                            <!-- portfolio-item - lightbox image -->
+                            <div class="media-cell media image hentry" style="position: absolute; left: 0px; top: 368.547px; width: 33.2692%;">
+                                <div class="media-box">
+                                    <img src="images/portfolio/04.jpg" alt="portfolio-post">
+                                    <div class="mask"></div>
+                                    <!-- lightbox - image -->
+                                    <a href="images/portfolio/lightbox-01.jpg" title="an illustration by Vasili Tkach" class="lightbox"></a>
+                                    <!-- lightbox - image -->
+                                </div>
+                                <div class="media-cell-desc">
+                                    <h3>World War X</h3>
+                                    <p class="category">ligthbox image</p>
+                                </div>
+                            </div>
+                            <!-- portfolio-item - lightbox image -->
+    
+    
+                            <!-- portfolio-item - lightbox soundcloud -->
+                            <div class="media-cell illustration audio hentry" style="position: absolute; left: 346px; top: 368.547px; width: 33.2692%;">
+                                <div class="media-box">
+                                    <img src="images/portfolio/05.jpg" alt="portfolio-post">
+                                    <div class="mask"></div>
+                                    <!-- lightbox - soundcloud : url copied from share/embed code -->
+                                    <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" title="Soundcloud embed" class="lightbox mfp-iframe"></a>
+                                    
+                                    <!-- lightbox - soundcloud -->
+                                </div>
+                                <div class="media-cell-desc">
+                                    <h3>Read</h3>
+                                    <p class="category">for bloggers</p>
+                                </div>
+                            </div>
+                            <!-- portfolio-item - lightbox soundcloud -->
+    
+    
+                            <!-- portfolio-item - lightbox gallery -->
+                            <div class="media-cell media image hentry" style="position: absolute; left: 692px; top: 368.547px; width: 33.2692%;">
+                                <div class="media-box">
+                                    <img src="images/portfolio/06.jpg" alt="portfolio-post">
+                                    <div class="mask"></div>
+                                    <!-- lightbox - gallery -->
+                                    <a href="images/portfolio/lightbox-02.jpg" class="lightbox" title="This is title"></a>
+                                    <a href="images/portfolio/lightbox-03.jpg" class="lightbox"></a>
+                                    <a href="images/portfolio/lightbox-04.jpg" class="lightbox" title="Dog have dreams"></a>
+                                    <!-- lightbox - gallery -->
+                                </div>
+                                <div class="media-cell-desc">
+                                    <h3>Wizard Adventure</h3>
+                                    <p class="category">lightbox gallery</p>
+                                </div>
+                            </div>
+                            <!-- portfolio-item - lightbox gallery -->
+    
+    
+                            <!-- portfolio-item - custom url -->
+                            <div class="media-cell illustration url hentry" style="position: absolute; left: 0px; top: 737.094px; width: 33.2692%;">
+                                <div class="media-box">
+                                    <img src="images/portfolio/07.jpg" alt="portfolio-post">
+                                    <div class="mask"></div>
+                                    <a href="http://themeforest.net/user/pixelwars" target="_blank"></a>
+                                </div>
+                                <div class="media-cell-desc">
+                                    <h3>Shinny Robot</h3>
+                                    <p class="category">an illustration work</p>
+                                </div>
+                            </div>
+                            <!-- portfolio-item - custom url -->
+    
+    
+                            <!-- portfolio-item -->
+                            <div class="media-cell media hentry" style="position: absolute; left: 346px; top: 737.094px; width: 33.2692%;">
+                                <div class="media-box">
+                                    <img src="images/portfolio/08.jpg" alt="portfolio-post">
+                                    <div class="mask"></div>
+                                    <a href="portfolio-item-03.html" class="ajax"></a>
+                                </div>
+                                <div class="media-cell-desc">
+                                    <h3>Virus Protection</h3>
+                                    <p class="category">an illustration work</p>
+                                </div>
+                            </div>
+                            <!-- portfolio-item -->
+    
+    
+                            <!-- portfolio-item -->
+                            <div class="media-cell media hentry" style="position: absolute; left: 692px; top: 737.094px; width: 33.2692%;">
+                                <div class="media-box">
+                                    <img src="images/portfolio/09.jpg" alt="portfolio-post">
+                                    <div class="mask"></div>
+                                    <a href="portfolio-item-02.html" class="ajax"></a>
+                                </div>
+                                <div class="media-cell-desc">
+                                    <h3>Photographer</h3>
+                                    <p class="category">for photographers</p>
+                                </div>
+                            </div>
+                            <!-- portfolio-item -->
+                            
+    
+    
+    
+                        </div>
+                        <!-- PORTFOLIO -->
+                        
+                        
+                            
+    					</div>
+                        <!-- .layout-medium -->
+                    </div>
+                    <!-- .content -->
+                </section>
+                <!-- PAGE : PORTFOLIO -->
+    
+    
+    
+    
+    
+    
+    
+                <!-- PAGE : BLOG -->
+                <section id="blog" class="pt-page page-layout">
+                	<!-- .content -->
+                    <div class="content">
+                    	<!-- .layout-medium -->
+                        <div class="layout-medium">
+    
+    					
+                        <!-- page-title -->
+                        <h1 class="page-title">
+                        	<i class="pe-7s-notebook"></i>from the blog
+                        </h1>
+                        <!-- page-title -->
+                        
+                        
+                        <!--<div class="entry-content">
+                        	<p>You don't know how to do any of those. What are their names? I've been there. My folks were always on me to groom myself and wear underpants.</p>
+                        </div>-->
+                        
+    
+                        <!-- LATEST POSTS -->
+                        <div class="latest-posts media-grid masonry" data-layout="masonry" data-item-width="340" style="position: relative; height: 1198.97px;">
+    
+                            <!-- post -->
+                            <article class="hentry media-cell" style="position: absolute; left: 0px; top: 0px; width: 33.2692%;">
+    
+                                <div class="media-box">
+                                    <img src="images/blog/01.jpg" alt="post-image">
+                                    <div class="mask"></div>
+                                    <a href="blog-single.html"></a>
+                                </div>
+    
+                                <header class="media-cell-desc">
+                                    <span title="2013" class="date">
+                                        <span class="day">18</span>oct</span>
+                                    <h3>
+                                        <a href="blog-single.html">20 Best Practices For Designing Better UIs</a>
+                                    </h3>
+                                </header>
+    
+                            </article>
+                            <!-- post -->
+    
+    
+                            <!-- post -->
+                            <article class="hentry media-cell" style="position: absolute; left: 346px; top: 0px; width: 33.2692%;">
+    
+                                <div class="media-box">
+                                    <img src="images/blog/02.jpg" alt="post-image">
+                                    <div class="mask"></div>
+                                    <a href="blog-single.html"></a>
+                                </div>
+    
+                                <header class="media-cell-desc">
+                                    <span title="2013" class="date">
+                                        <span class="day">11</span>oct</span>
+                                    <h3>
+                                        <a href="blog-single.html">40 Inspirational Magazine Designs That You Should See</a>
+                                    </h3>
+                                </header>
+    
+                            </article>
+                            <!-- post -->
+    
+    
+                            <!-- post -->
+                            <article class="hentry media-cell" style="position: absolute; left: 692px; top: 0px; width: 33.2692%;">
+    
+                                <div class="media-box">
+                                    <img src="images/blog/03.jpg" alt="post-image">
+                                    <div class="mask"></div>
+                                    <a href="blog-single.html"></a>
+                                </div>
+    
+                                <header class="media-cell-desc">
+                                    <span title="2013" class="date">
+                                        <span class="day">27</span>sep</span>
+                                    <h3>
+                                        <a href="blog-single.html">Creating a New Typeface For Your Next Project</a>
+                                    </h3>
+                                </header>
+    
+                            </article>
+                            <!-- post -->
+    
+    
+                            <!-- post -->
+                            <article class="hentry media-cell" style="position: absolute; left: 0px; top: 364.391px; width: 33.2692%;">
+    
+                                <div class="media-box">
+                                    <img src="images/blog/04.jpg" alt="post-image">
+                                    <div class="mask"></div>
+                                    <a href="blog-single.html"></a>
+                                </div>
+    
+                                <header class="media-cell-desc">
+                                    <span title="2013" class="date">
+                                        <span class="day">14</span>jun</span>
+                                    <h3>
+                                        <a href="blog-single.html">Sketching a Monster Made by Stone From Scratch</a>
+                                    </h3>
+                                </header>
+    
+                            </article>
+                            <!-- post -->
+    
+    
+                            <!-- post -->
+                            <article class="hentry media-cell" style="position: absolute; left: 346px; top: 365.688px; width: 33.2692%;">
+    
+                                <div class="media-box">
+                                    <img src="images/blog/05.jpg" alt="post-image">
+                                    <div class="mask"></div>
+                                    <a href="blog-single.html"></a>
+                                </div>
+    
+                                <header class="media-cell-desc">
+                                    <span title="2013" class="date">
+                                        <span class="day">05</span>jun</span>
+                                    <h3>
+                                        <a href="blog-single.html">Designing a Physics Based iOS Game From Scratch</a>
+                                    </h3>
+                                </header>
+    
+                            </article>
+                            <!-- post -->
+    
+    
+                            <!-- post -->
+                            <article class="hentry media-cell" style="position: absolute; left: 692px; top: 365.688px; width: 33.2692%;">
+    
+                                <div class="media-box">
+                                    <img src="images/blog/06.jpg" alt="post-image">
+                                    <div class="mask"></div>
+                                    <a href="blog-single.html"></a>
+                                </div>
+    
+                                <header class="media-cell-desc">
+                                    <span title="2013" class="date">
+                                        <span class="day">03</span>may</span>
+                                    <h3>
+                                        <a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a>
+                                    </h3>
+                                </header>
+    
+                            </article>
+                            <!-- post -->
+    
+    
+                            <!-- post -->
+                            <article class="hentry media-cell" style="position: absolute; left: 0px; top: 730.079px; width: 33.2692%;">
+    
+                                <div class="media-box">
+                                    <img src="images/blog/07.jpg" alt="post-image">
+                                    <div class="mask"></div>
+                                    <a href="blog-single.html"></a>
+                                </div>
+    
+                                <header class="media-cell-desc">
+                                    <span title="2013" class="date">
+                                        <span class="day">03</span>may</span>
+                                    <h3>
+                                        <a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a>
+                                    </h3>
+                                </header>
+    
+                            </article>
+                            <!-- post -->
+    
+    
+                            <!-- post -->
+                            <article class="hentry media-cell" style="position: absolute; left: 346px; top: 731.376px; width: 33.2692%;">
+    
+                                <div class="media-box">
+                                    <img src="images/blog/08.jpg" alt="post-image">
+                                    <div class="mask"></div>
+                                    <a href="blog-single.html"></a>
+                                </div>
+    
+                                <header class="media-cell-desc">
+                                    <span title="2013" class="date">
+                                        <span class="day">03</span>may</span>
+                                    <h3>
+                                        <a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a>
+                                    </h3>
+                                </header>
+    
+                            </article>
+                            <!-- post -->
+    
+    
+                            <!-- post -->
+                            <article class="hentry media-cell" style="position: absolute; left: 692px; top: 833.282px; width: 33.2692%;">
+    
+                                <div class="media-box">
+                                    <img src="images/blog/09.jpg" alt="post-image">
+                                    <div class="mask"></div>
+                                    <a href="blog-single.html"></a>
+                                </div>
+    
+                                <header class="media-cell-desc">
+                                    <span title="2013" class="date">
+                                        <span class="day">03</span>may</span>
+                                    <h3>
+                                        <a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a>
+                                    </h3>
+                                </header>
+    
+                            </article>
+                            <!-- post -->
+    
+    
+                        </div>
+                        <!-- LATEST POSTS -->
+    
+    
+                        <p class="launch">
+                            <a class="button" href="blog.html">SEE ALL POSTS</a>
+                        </p>
+                        
+                            
+    					</div>
+                        <!-- .layout-medium -->
+                    </div>
+                    <!-- .content -->
+                </section>
+                <!-- PAGE : BLOG -->
+    
+    
+    
+    
+    
+                <!-- PAGE : CONTACT -->
+                <section id="contact" class="pt-page page-layout contact light-text">
+                	<!-- .content -->
+                    <div class="content">
+                    	<!-- .layout-medium -->
+                        <div class="layout-medium">
+    					
+                        
+                            <!-- page-title -->
+                            <h1 class="page-title">
+                                <i class="pe-7s-call"></i>contact me
+                            </h1>
+                            <!-- page-title -->
+        
+                             
+        
+        
+        
+                            <!-- section-title -->
+                            <div class="section-title center">    
+                                <h2>
+                                    <i>Let's Socialize</i>
+                                </h2>
+                            </div>
+                            <!-- section-title -->
+        
+                            <!-- SOCIAL -->
+                            <ul class="social">
+                                <li><a class="facebook" href="#"></a></li>
+                                <li><a class="twitter" href="#"></a></li>
+                                <li><a class="linkedin" href="#"></a></li>
+                                <li><a class="google-plus" href="#"></a></li>
+                                <li><a class="pinterest" href="#"></a></li>
+                                <li><a class="instagram" href="#"></a></li>
+                                <li><a class="vine" href="#"></a></li>
+                                <li><a class="vimeo" href="#"></a></li>
+                              </ul>
+                              <!-- SOCIAL -->
+        
+                             
+        
+        
+        
+                            <!-- section-title -->
+                            <div class="section-title center">    
+                                <h2>
+                                    <i>Reach Me</i>
+                                </h2>
+                            </div>
+                            <!-- section-title -->
+                                
+                              
+                                    
+                            <!-- row -->
+                            <div class="row">
+                                
+                                <!-- column 3/12 -->
+                                <div class="col-xs-6 col-sm-3">
+    
+                                    <!-- fun-fact -->
+                                    <div class="fun-fact">
+                                        <i class="pe-7s-map-marker"></i>
+                                        <!--<img src="images/site/icon-03.png" alt="image"/>-->
+                                        <h4>based in Los Angeles, USA</h4>
+                                    </div>
+                                    <!-- fun-fact -->
+    
+                                </div>
+                                <!-- column 3/12 -->
+                                
+                                <!-- column 3/12 -->
+                                <div class="col-xs-6 col-sm-3">
+    
+                                    <!-- fun-fact -->
+                                    <div class="fun-fact">
+                                        <i class="pe-7s-call"></i>
+                                        <h4>Tel : +123 456 78900</h4>
+                                    </div>
+                                    <!-- fun-fact -->
+    
+                                </div>
+                                <!-- column 3/12 -->
+                                
+                                <!-- column 3/12 -->
+                                <div class="col-xs-6 col-sm-3">
+    
+                                    <!-- fun-fact -->
+                                    <div class="fun-fact">
+                                        <i class="pe-7s-mail"></i>
+                                        <h4>johndoe [at] gmail.com</h4>
+                                    </div>
+                                    <!-- fun-fact -->
+    
+                                </div>
+                                <!-- column 3/12 -->
+    
+                                <!-- column 3/12 -->
+                                <div class="col-xs-6 col-sm-3">
+    
+                                    <!-- fun-fact -->
+                                    <div class="fun-fact">
+                                        <i class="pe-7s-check"></i>
+                                        <h4>Freelance Available</h4>
+                                    </div>
+                                    <!-- fun-fact -->
+    
+                                </div>
+                                <!-- column 3/12 -->
+    
+                            </div>
+                            <!-- row -->
+        
+        
+        
+        
+                            <!-- section-title -->
+                            <div class="section-title center">    
+                                <h2>
+                                    <i>Drop Me A Line</i>
+                                </h2>
+                            </div>
+                            <!-- section-title -->
+                            
+                            
+                            <!-- .contact-form -->
+                            <div class="contact-form">
+                            
+                                <form id="contact-form" class="validate-form" method="post" action="send-mail.php" novalidate="novalidate">
+                                
+                                    <!-- enter mail subject here -->
+                                    <input type="hidden" name="subject" id="subject" value="You have a new message from Photographer!">
+                                    
+                                    <p>
+                                      <label for="name">NAME</label>
+                                      <input type="text" name="name" id="name" class="required" aria-required="true">
+                                    </p>
+                                    
+                                    <p>
+                                      <label for="email">EMAIL</label>
+                                      <input type="text" name="email" id="email" class="required email" aria-required="true">
+                                    </p>
+                                    
+                                    <p class="antispam">Leave this empty if you are a human :
+                                        <br><input name="url">
+                                    </p>
+                                    
+                                    <p>
+                                      <label for="message">MESSAGE</label>
+                                      <textarea name="message" id="message" class="required" aria-required="true"></textarea>
+                                    </p>
+                                    
+                                    <p>
+                                      <button class="submit button">Send</button>
+                                    </p>
+                                
+                                </form>
+                            
+                            </div>
+                            <!-- .contact-form -->
+                    
+                    
+                            <!-- GOOGLE MAP -->
+                            <div class="map">
+                                <div data-latitude="-25.363882" data-longitude="131.044922" data-zoom="5" data-marker-image="images/site/marker.png" id="map-canvas" class="map-canvas" style="position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div><button draggable="false" aria-label="Keyboard shortcuts" title="Keyboard shortcuts" type="button" style="background: none transparent; display: block; border: none; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: absolute; cursor: pointer; user-select: none; z-index: 1000002; outline-offset: 3px; right: 0px; bottom: 0px; transform: translateX(100%);"></button></div><div tabindex="0" aria-label="Map" aria-roledescription="map" role="region" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none;" aria-describedby="DDD4D722-E3FE-44A1-92D3-B057F81C114F"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; will-change: transform; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 995; transform: matrix(1, 0, 0, 1, -166, -85);"><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: -512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: -512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 768px; top: -512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 768px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 768px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 768px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 768px; top: 512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: 512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: 512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: -512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: -768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: -768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: -768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 768px; top: -768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 1024px; top: -768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 1024px; top: -512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 1024px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 1024px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 1024px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 1024px; top: 512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 1024px; top: 768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 768px; top: 768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: 768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: 768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -768px; top: 768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -768px; top: 512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -768px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -768px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -768px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -768px; top: -512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -768px; top: -768px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="width: 120px; height: 90px; overflow: hidden; position: absolute; left: -60px; top: -90px; z-index: 0;"><img alt="" src="images/site/marker.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 120px; height: 90px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; z-index: 995; transform: matrix(1, 0, 0, 1, -166, -85);"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: -512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 768px; top: -512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 768px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 768px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 768px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 768px; top: 512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: 512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: -512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: -768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: -768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 768px; top: -768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1024px; top: -768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1024px; top: -512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1024px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1024px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1024px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1024px; top: 512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1024px; top: 768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 768px; top: 768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: 768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -768px; top: 768px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -768px; top: 512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -768px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -768px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -768px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -768px; top: -512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -768px; top: -768px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 995; transform: matrix(1, 0, 0, 1, -166, -85);"><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i28!3i18!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=30479" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i27!3i18!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=124188" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i27!3i17!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=81466" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i28!3i17!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=118828" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i29!3i18!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=67841" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i29!3i17!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=25119" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i29!3i19!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=110563" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i28!3i19!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=73201" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i27!3i19!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=35839" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i26!3i18!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=86826" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i28!3i16!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=76106" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i27!3i16!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=38744" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i26!3i16!4i256!2m3!1e0!2sm!3i652391761!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=97430" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i29!3i16!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=113468" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 768px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i30!3i16!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=20247" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i26!3i19!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=129548" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i26!3i17!4i256!2m3!1e0!2sm!3i652391761!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=9081" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 768px; top: 512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i30!3i20!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=99422" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: 512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i29!3i20!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=61572" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 768px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i30!3i19!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=17342" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 768px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i30!3i17!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=62969" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 768px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i30!3i18!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=105691" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i28!3i20!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=24210" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i27!3i20!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=117919" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i26!3i20!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=80557" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i25!3i16!4i256!2m3!1e0!2sm!3i652391761!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=60068" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i25!3i18!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=49464" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: -768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i26!3i15!4i256!2m3!1e0!2sm!3i652391761!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=54708" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: -768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i25!3i15!4i256!2m3!1e0!2sm!3i652391761!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=17346" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: -768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i27!3i15!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=127093" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: 512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i25!3i20!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=43195" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1024px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i31!3i16!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=57609" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: -768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i29!3i15!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=70746" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: -768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i28!3i15!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=33384" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 768px; top: -768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i30!3i15!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=108596" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1024px; top: -768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i31!3i15!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=14887" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i25!3i17!4i256!2m3!1e0!2sm!3i652391761!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=102790" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i25!3i19!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=92186" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1024px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i31!3i17!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=100331" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1024px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i31!3i19!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=54704" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1024px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i31!3i18!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=11982" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1024px; top: 512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i31!3i20!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=5713" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 768px; top: 768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i30!3i21!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=11073" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i28!3i21!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=66932" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i27!3i21!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=29570" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1024px; top: 768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i31!3i21!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=48435" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: 768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i29!3i21!4i256!2m3!1e0!2sm!3i652391689!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=104294" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: 768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i25!3i21!4i256!2m3!1e0!2sm!3i652262082!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=114251" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -768px; top: -512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i24!3i16!4i256!2m3!1e0!2sm!3i652391761!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=22706" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -768px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i24!3i18!4i256!2m3!1e0!2sm!3i652386925!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=83099" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i26!3i21!4i256!2m3!1e0!2sm!3i652353660!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=11325" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -768px; top: 768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i24!3i21!4i256!2m3!1e0!2sm!3i652262082!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=76889" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -768px; top: -768px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i24!3i15!4i256!2m3!1e0!2sm!3i652391773!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=100625" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -768px; top: 512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i24!3i20!4i256!2m3!1e0!2sm!3i652386637!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=96917" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -768px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i24!3i17!4i256!2m3!1e0!2sm!3i652391761!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=65428" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -768px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i5!2i24!3i19!4i256!2m3!1e0!2sm!3i652386637!2m3!1e2!6m1!3e5!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi02MHxwLmw6LTYw!4e0!23i1379903&amp;token=14837" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; will-change: transform; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><span id="DEF2885A-678C-49C0-84A7-B10982340F26" style="display: none;">To navigate, press the arrow keys.</span><div title="Hey, I am here" aria-label="Hey, I am here" role="img" tabindex="-1" style="width: 120px; height: 90px; overflow: hidden; position: absolute; cursor: pointer; touch-action: none; left: -60px; top: -90px; z-index: 0;"><img alt="" src="https://maps.gstatic.com/mapfiles/transparent.png" draggable="false" style="width: 120px; height: 90px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div class="gm-style-moc" style="z-index: 4; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;"><p class="gm-style-mot"></p></div><div class="LGLeeN-keyboard-shortcuts-view" id="DDD4D722-E3FE-44A1-92D3-B057F81C114F" style="display: none;"><table><tbody><tr><td style="text-align: right;"><kbd class="VdnQmO-keyboard-shortcuts-view--shortcut-key" aria-label="Left arrow">←</kbd></td><td aria-label="Move left.">Move left</td></tr><tr><td style="text-align: right;"><kbd class="VdnQmO-keyboard-shortcuts-view--shortcut-key" aria-label="Right arrow">→</kbd></td><td aria-label="Move right.">Move right</td></tr><tr><td style="text-align: right;"><kbd class="VdnQmO-keyboard-shortcuts-view--shortcut-key" aria-label="Up arrow">↑</kbd></td><td aria-label="Move up.">Move up</td></tr><tr><td style="text-align: right;"><kbd class="VdnQmO-keyboard-shortcuts-view--shortcut-key" aria-label="Down arrow">↓</kbd></td><td aria-label="Move down.">Move down</td></tr><tr><td style="text-align: right;"><kbd class="VdnQmO-keyboard-shortcuts-view--shortcut-key">+</kbd></td><td aria-label="Zoom in.">Zoom in</td></tr><tr><td style="text-align: right;"><kbd class="VdnQmO-keyboard-shortcuts-view--shortcut-key">-</kbd></td><td aria-label="Zoom out.">Zoom out</td></tr><tr><td style="text-align: right;"><kbd class="VdnQmO-keyboard-shortcuts-view--shortcut-key">Home</kbd></td><td aria-label="Jump left by 75%.">Jump left by 75%</td></tr><tr><td style="text-align: right;"><kbd class="VdnQmO-keyboard-shortcuts-view--shortcut-key">End</kbd></td><td aria-label="Jump right by 75%.">Jump right by 75%</td></tr><tr><td style="text-align: right;"><kbd class="VdnQmO-keyboard-shortcuts-view--shortcut-key">Page Up</kbd></td><td aria-label="Jump up by 75%.">Jump up by 75%</td></tr><tr><td style="text-align: right;"><kbd class="VdnQmO-keyboard-shortcuts-view--shortcut-key">Page Down</kbd></td><td aria-label="Jump down by 75%.">Jump down by 75%</td></tr></tbody></table></div></div><iframe aria-hidden="true" frameborder="0" tabindex="-1" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;"></iframe><div style="pointer-events: none; width: 100%; height: 100%; box-sizing: border-box; position: absolute; z-index: 1000002; opacity: 0; border: 2px solid rgb(26, 115, 232);"></div><div></div><div></div><div></div><div></div><div><button draggable="false" aria-label="Toggle fullscreen view" title="Toggle fullscreen view" type="button" aria-pressed="false" class="gm-control-active gm-fullscreen-control" style="background: none rgb(255, 255, 255); border: 0px; margin: 10px; padding: 0px; text-transform: none; appearance: none; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; display: none; top: 0px; right: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%200v6h2V2h4V0H0zm16%200h-4v2h4v4h2V0h-2zm0%2016h-4v2h6v-6h-2v4zM2%2012H0v6h6v-2H2v-4z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%200v6h2V2h4V0H0zm16%200h-4v2h4v4h2V0h-2zm0%2016h-4v2h6v-6h-2v4zM2%2012H0v6h6v-2H2v-4z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%200v6h2V2h4V0H0zm16%200h-4v2h4v4h2V0h-2zm0%2016h-4v2h6v-6h-2v4zM2%2012H0v6h6v-2H2v-4z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"></button></div><div></div><div></div><div></div><div></div><div></div><div><div style="margin: 0px 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" rel="noopener" title="Open this area in Google Maps (opens a new window)" aria-label="Open this area in Google Maps (opens a new window)" href="https://maps.google.com/maps?ll=-25.363882,131.044922&amp;z=5&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" style="display: inline;"><div style="width: 66px; height: 26px;"><img alt="Google" src="data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2069%2029%22%3E%3Cg%20opacity%3D%22.3%22%20fill%3D%22%23000%22%20stroke%3D%22%23000%22%20stroke-width%3D%221.5%22%3E%3Cpath%20d%3D%22M17.4706%207.33616L18.0118%206.79504%2017.4599%206.26493C16.0963%204.95519%2014.2582%203.94522%2011.7008%203.94522c-4.613699999999999%200-8.50262%203.7551699999999997-8.50262%208.395779999999998C3.19818%2016.9817%207.0871%2020.7368%2011.7008%2020.7368%2014.1712%2020.7368%2016.0773%2019.918%2017.574%2018.3689%2019.1435%2016.796%2019.5956%2014.6326%2019.5956%2012.957%2019.5956%2012.4338%2019.5516%2011.9316%2019.4661%2011.5041L19.3455%2010.9012H10.9508V14.4954H15.7809C15.6085%2015.092%2015.3488%2015.524%2015.0318%2015.8415%2014.403%2016.4629%2013.4495%2017.1509%2011.7008%2017.1509%209.04835%2017.1509%206.96482%2015.0197%206.96482%2012.341%206.96482%209.66239%209.04835%207.53119%2011.7008%207.53119%2013.137%207.53119%2014.176%208.09189%2014.9578%208.82348L15.4876%209.31922%2016.0006%208.80619%2017.4706%207.33616z%22/%3E%3Cpath%20d%3D%22M24.8656%2020.7286C27.9546%2020.7286%2030.4692%2018.3094%2030.4692%2015.0594%2030.4692%2011.7913%2027.953%209.39009%2024.8656%209.39009%2021.7783%209.39009%2019.2621%2011.7913%2019.2621%2015.0594c0%203.25%202.514499999999998%205.6692%205.6035%205.6692zM24.8656%2012.8282C25.8796%2012.8282%2026.8422%2013.6652%2026.8422%2015.0594%2026.8422%2016.4399%2025.8769%2017.2905%2024.8656%2017.2905%2023.8557%2017.2905%2022.8891%2016.4331%2022.8891%2015.0594%2022.8891%2013.672%2023.853%2012.8282%2024.8656%2012.8282z%22/%3E%3Cpath%20d%3D%22M35.7511%2017.2905v0H35.7469C34.737%2017.2905%2033.7703%2016.4331%2033.7703%2015.0594%2033.7703%2013.672%2034.7343%2012.8282%2035.7469%2012.8282%2036.7608%2012.8282%2037.7234%2013.6652%2037.7234%2015.0594%2037.7234%2016.4439%2036.7554%2017.2961%2035.7511%2017.2905zM35.7387%2020.7286C38.8277%2020.7286%2041.3422%2018.3094%2041.3422%2015.0594%2041.3422%2011.7913%2038.826%209.39009%2035.7387%209.39009%2032.6513%209.39009%2030.1351%2011.7913%2030.1351%2015.0594%2030.1351%2018.3102%2032.6587%2020.7286%2035.7387%2020.7286z%22/%3E%3Cpath%20d%3D%22M51.953%2010.4357V9.68573H48.3999V9.80826C47.8499%209.54648%2047.1977%209.38187%2046.4808%209.38187%2043.5971%209.38187%2041.0168%2011.8998%2041.0168%2015.0758%2041.0168%2017.2027%2042.1808%2019.0237%2043.8201%2019.9895L43.7543%2020.0168%2041.8737%2020.797%2041.1808%2021.0844%2041.4684%2021.7772C42.0912%2023.2776%2043.746%2025.1469%2046.5219%2025.1469%2047.9324%2025.1469%2049.3089%2024.7324%2050.3359%2023.7376%2051.3691%2022.7367%2051.953%2021.2411%2051.953%2019.2723v-8.8366zm-7.2194%209.9844L44.7334%2020.4196C45.2886%2020.6201%2045.878%2020.7286%2046.4808%2020.7286%2047.1616%2020.7286%2047.7866%2020.5819%2048.3218%2020.3395%2048.2342%2020.7286%2048.0801%2021.0105%2047.8966%2021.2077%2047.6154%2021.5099%2047.1764%2021.7088%2046.5219%2021.7088%2045.61%2021.7088%2045.0018%2021.0612%2044.7336%2020.4201zM46.6697%2012.8282C47.6419%2012.8282%2048.5477%2013.6765%2048.5477%2015.084%2048.5477%2016.4636%2047.6521%2017.2987%2046.6697%2017.2987%2045.6269%2017.2987%2044.6767%2016.4249%2044.6767%2015.084%2044.6767%2013.7086%2045.6362%2012.8282%2046.6697%2012.8282zM55.7387%205.22081v-.75H52.0788V20.4412H55.7387V5.22081z%22/%3E%3Cpath%20d%3D%22M63.9128%2016.0614L63.2945%2015.6492%2062.8766%2016.2637C62.4204%2016.9346%2061.8664%2017.3069%2061.0741%2017.3069%2060.6435%2017.3069%2060.3146%2017.2088%2060.0544%2017.0447%2059.9844%2017.0006%2059.9161%2016.9496%2059.8498%2016.8911L65.5497%2014.5286%2066.2322%2014.2456%2065.9596%2013.5589%2065.7406%2013.0075C65.2878%2011.8%2063.8507%209.39832%2060.8278%209.39832%2057.8445%209.39832%2055.5034%2011.7619%2055.5034%2015.0676%2055.5034%2018.2151%2057.8256%2020.7369%2061.0659%2020.7369%2063.6702%2020.7369%2065.177%2019.1378%2065.7942%2018.2213L66.2152%2017.5963%2065.5882%2017.1783%2063.9128%2016.0614zM61.3461%2012.8511L59.4108%2013.6526C59.7903%2013.0783%2060.4215%2012.7954%2060.9017%2012.7954%2061.067%2012.7954%2061.2153%2012.8161%2061.3461%2012.8511z%22/%3E%3C/g%3E%3Cpath%20d%3D%22M11.7008%2019.9868C7.48776%2019.9868%203.94818%2016.554%203.94818%2012.341%203.94818%208.12803%207.48776%204.69522%2011.7008%204.69522%2014.0331%204.69522%2015.692%205.60681%2016.9403%206.80583L15.4703%208.27586C14.5751%207.43819%2013.3597%206.78119%2011.7008%206.78119%208.62108%206.78119%206.21482%209.26135%206.21482%2012.341%206.21482%2015.4207%208.62108%2017.9009%2011.7008%2017.9009%2013.6964%2017.9009%2014.8297%2017.0961%2015.5606%2016.3734%2016.1601%2015.7738%2016.5461%2014.9197%2016.6939%2013.7454h-4.9931V11.6512h7.0298C18.8045%2012.0207%2018.8456%2012.4724%2018.8456%2012.957%2018.8456%2014.5255%2018.4186%2016.4637%2017.0389%2017.8434%2015.692%2019.2395%2013.9838%2019.9868%2011.7008%2019.9868zM29.7192%2015.0594C29.7192%2017.8927%2027.5429%2019.9786%2024.8656%2019.9786%2022.1884%2019.9786%2020.0121%2017.8927%2020.0121%2015.0594%2020.0121%2012.2096%2022.1884%2010.1401%2024.8656%2010.1401%2027.5429%2010.1401%2029.7192%2012.2096%2029.7192%2015.0594zM27.5922%2015.0594C27.5922%2013.2855%2026.3274%2012.0782%2024.8656%2012.0782S22.1391%2013.2937%2022.1391%2015.0594C22.1391%2016.8086%2023.4038%2018.0405%2024.8656%2018.0405S27.5922%2016.8168%2027.5922%2015.0594zM40.5922%2015.0594C40.5922%2017.8927%2038.4159%2019.9786%2035.7387%2019.9786%2033.0696%2019.9786%2030.8851%2017.8927%2030.8851%2015.0594%2030.8851%2012.2096%2033.0614%2010.1401%2035.7387%2010.1401%2038.4159%2010.1401%2040.5922%2012.2096%2040.5922%2015.0594zM38.4734%2015.0594C38.4734%2013.2855%2037.2087%2012.0782%2035.7469%2012.0782%2034.2851%2012.0782%2033.0203%2013.2937%2033.0203%2015.0594%2033.0203%2016.8086%2034.2851%2018.0405%2035.7469%2018.0405%2037.2087%2018.0487%2038.4734%2016.8168%2038.4734%2015.0594zM51.203%2010.4357v8.8366C51.203%2022.9105%2049.0595%2024.3969%2046.5219%2024.3969%2044.132%2024.3969%2042.7031%2022.7955%2042.161%2021.4897L44.0417%2020.7095C44.3784%2021.5143%2045.1997%2022.4588%2046.5219%2022.4588%2048.1479%2022.4588%2049.1499%2021.4487%2049.1499%2019.568V18.8617H49.0759C48.5914%2019.4612%2047.6552%2019.9786%2046.4808%2019.9786%2044.0171%2019.9786%2041.7668%2017.8352%2041.7668%2015.0758%2041.7668%2012.3%2044.0253%2010.1319%2046.4808%2010.1319%2047.6552%2010.1319%2048.5914%2010.6575%2049.0759%2011.2323H49.1499V10.4357H51.203zM49.2977%2015.084C49.2977%2013.3512%2048.1397%2012.0782%2046.6697%2012.0782%2045.175%2012.0782%2043.9267%2013.3429%2043.9267%2015.084%2043.9267%2016.8004%2045.175%2018.0487%2046.6697%2018.0487%2048.1397%2018.0487%2049.2977%2016.8004%2049.2977%2015.084zM54.9887%205.22081V19.6912H52.8288V5.22081H54.9887zM63.4968%2016.6854L65.1722%2017.8023C64.6301%2018.6072%2063.3244%2019.9869%2061.0659%2019.9869%2058.2655%2019.9869%2056.2534%2017.827%2056.2534%2015.0676%2056.2534%2012.1439%2058.2901%2010.1483%2060.8278%2010.1483%2063.3818%2010.1483%2064.6301%2012.1768%2065.0408%2013.2773L65.2625%2013.8357%2058.6843%2016.5623C59.1853%2017.5478%2059.9737%2018.0569%2061.0741%2018.0569%2062.1746%2018.0569%2062.9384%2017.5067%2063.4968%2016.6854zM58.3312%2014.9115L62.7331%2013.0884C62.4867%2012.4724%2061.764%2012.0454%2060.9017%2012.0454%2059.8012%2012.0454%2058.2737%2013.0145%2058.3312%2014.9115z%22%20fill%3D%22%23fff%22/%3E%3C/svg%3E" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div></div><div></div><div><div style="display: inline-flex; position: absolute; right: 0px; bottom: 0px;"><div class="gmnoprint" style="z-index: 1000001;"><div draggable="false" class="gm-style-cc" style="user-select: none; position: relative; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><button draggable="false" aria-label="Keyboard shortcuts" title="Keyboard shortcuts" type="button" style="background: none; display: inline-block; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; color: rgb(0, 0, 0); font-family: inherit; line-height: inherit;">Keyboard shortcuts</button></div></div></div><div class="gmnoprint" style="z-index: 1000001;"><div draggable="false" class="gm-style-cc" style="user-select: none; position: relative; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><button draggable="false" aria-label="Map Data" title="Map Data" type="button" style="background: none; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; color: rgb(0, 0, 0); font-family: inherit; line-height: inherit; display: none;">Map Data</button><span style="">Map data ©2023 Google</span></div></div></div><div class="gmnoscreen"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(0, 0, 0); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2023 Google</div></div><button draggable="false" aria-label="Map Scale: 200 km per 63 pixels" title="Map Scale: 200 km per 63 pixels" type="button" class="gm-style-cc" aria-describedby="33046203-98FC-4256-89F2-31E66D7B631D" style="background: none; display: none; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><span>200 km&nbsp;</span><div style="position: relative; display: inline-block; height: 8px; bottom: -1px; width: 67px;"><div style="width: 100%; height: 4px; position: absolute; left: 0px; top: 0px;"></div><div style="width: 4px; height: 8px; left: 0px; top: 0px; background-color: rgb(255, 255, 255);"></div><div style="width: 4px; height: 8px; position: absolute; background-color: rgb(255, 255, 255); right: 0px; bottom: 0px;"></div><div style="position: absolute; background-color: rgb(102, 102, 102); height: 2px; left: 1px; bottom: 1px; right: 1px;"></div><div style="position: absolute; width: 2px; height: 6px; left: 1px; top: 1px; background-color: rgb(102, 102, 102);"></div><div style="width: 2px; height: 6px; position: absolute; background-color: rgb(102, 102, 102); bottom: 1px; right: 1px;"></div></div></div><span id="33046203-98FC-4256-89F2-31E66D7B631D" style="display: none;">Click to toggle between metric and imperial units</span></button><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; position: relative; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" rel="noopener" style="text-decoration: none; cursor: pointer; color: rgb(0, 0, 0);">Terms of Use</a></div></div><div draggable="false" class="gm-style-cc" style="user-select: none; position: relative; height: 14px; line-height: 14px; display: none;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Report errors in the road map or imagery to Google" dir="ltr" href="https://www.google.com/maps/@-25.363882,131.044922,5z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); text-decoration: none; position: relative;">Report a map error</a></div></div></div></div></div></div><div style="background-color: white; font-weight: 500; font-family: Roboto, sans-serif; padding: 15px 25px; box-sizing: border-box; top: 5px; border: 1px solid rgba(0, 0, 0, 0.12); border-radius: 5px; left: 50%; max-width: 375px; position: absolute; transform: translateX(-50%); width: calc(100% - 10px); z-index: 1;"><div><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/google_gray.svg" draggable="false" style="padding: 0px; margin: 0px; border: 0px; height: 17px; vertical-align: middle; width: 52px; user-select: none;"></div><div style="line-height: 20px; margin: 15px 0px;"><span style="color: rgba(0, 0, 0, 0.87); font-size: 14px;">This page can't load Google Maps correctly.</span></div><table style="width: 100%;"><tr><td style="line-height: 16px; vertical-align: middle;"><a href="https://developers.google.com/maps/documentation/javascript/error-messages?utm_source=maps_js&amp;utm_medium=degraded&amp;utm_campaign=keyless#api-key-and-billing-errors" target="_blank" rel="noopener" style="color: rgba(0, 0, 0, 0.54); font-size: 12px;">Do you own this website?</a></td><td style="text-align: right;"><button class="dismissButton">OK</button></td></tr></table></div></div>
+                            </div>
+                            <!-- GOOGLE MAP -->
+                        
+                            
+    					</div>
+                        <!-- .layout-medium -->
+                    </div>
+                    <!-- .content -->
+                </section>
+                <!-- PAGE : CONTACT -->
 
-<section id="contact">
-  <h1 class="headings">CONTACT</h1>
-  <form action="" class="form">
-    <input type="text" name="name" class="input" placeholder="Enter Your Name">
-    <input type="email" name="email" class="input" placeholder="Enter Your Email">
-    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-    <input type="submit" value="SEND" id="send">
-  </form>
-</section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
-</body>
+
+            <!-- InstanceEndEditable -->
+            
+            
+                
+			</div>
+            <!-- .site-main -->
+            
+            
+            
+            
+		</div>
+        <!-- PAGE -->
+        
+        
+        
+        
+        
+        <!-- InstanceBeginEditable name="Body-End-Content" -->
+
+
+        <!-- PORTFOLIO SINGLE AJAX CONTENT CONTAINER -->
+        <div class="p-overlay"></div>
+        <div class="p-overlay"></div>
+    
+    
+        <!-- ALERT : used for contact form mail delivery alert -->
+        <div class="site-alert animated"></div>
+
+
+    	<!-- InstanceEndEditable -->
+        
+        
+		
+        
+        <!-- SCRIPTS -->
+        <script src="js/jquery.address-1.5.min.js"></script>
+        <script src="js/nprogress/nprogress.js"></script>
+        <script src="js/fastclick.js"></script>
+        <script src="js/typist.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/jquery.uniform/jquery.uniform.min.js"></script>
+        <script src="js/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="js/socialstream.jquery.js"></script>
+        <script src="js/jarallax.min.js"></script>
+        <script src="js/jarallax-video.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE"></script>-->
+        <script src="js/main.js"></script>
+        
+	
+</body><!-- InstanceEnd --><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 </html>
