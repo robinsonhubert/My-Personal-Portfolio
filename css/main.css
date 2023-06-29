@@ -460,7 +460,8 @@ html {
 	}	
 .content {
 	position: relative; z-index: 10; text-align: left;
-	}
+	
+}
 .content > div {
  	padding: 2em 0 3em;
 	}
@@ -710,14 +711,14 @@ body {
 /* LIGHT TEXT ON PAGES */
 .light-text,
 .light-text label { 
-	color: #fff; 
+	color: #000000; 
 	}
 .light-text .social li a { 
-	line-height: 48px; border: 2px solid rgba(255, 255, 255, 0.26); 
+	line-height: 48px; border: 2px solid rgba(0, 0, 0, 0.26); 
 	}
 .light-text input:not([type=submit]):not([type=button]):not([type=file]):not([type=radio]):not([type=checkbox]), 
 .light-text textarea {
-	border-color: rgba(255, 255, 255, 0.6); color: rgba(255, 255, 255, 0.8);
+	border-color: rgba(0, 0, 0, 0.6); color: rgba(0, 0, 0, 0.8);
 	}
 .light-text input:not([type=submit]):not([type=button]):not([type=file]):not([type=radio]):not([type=checkbox]):focus, 
 .light-text textarea:focus {
@@ -727,7 +728,7 @@ body {
 .light-text input[type=button], 
 .light-text button, 
 .light-text a.button { 
-	border-color: rgba(255, 255, 255, 0.7); color: rgba(255, 255, 255, 0.9);
+	border-color: rgba(0, 0, 0, 0.7); color: rgba(0, 0, 0, 0.9);
 	}
 .light-text .service p {
 	color: rgba(255, 255, 255, 0.7);
@@ -766,7 +767,7 @@ body {
 
 /* PAGE TITLE */	
 .page-title { 
-	margin: 0; padding: .6em 0; text-align: center; 
+	margin: 0; padding: .6em 0; text-align: center;color: #000; 
 	}
 .page-title i { 
 	display: block; font-size: 50px; 
@@ -863,7 +864,7 @@ body {
 		max-width: 54px; margin: 0; margin-bottom: 8px;
 		}
 	.fun-fact h4 { 
-		max-width: 140px; margin: 0 auto; font-size: 12px; line-height: 1.2; font-weight: 400; text-transform: uppercase; 
+		max-width: 140px; margin: 0 auto; font-size: 12px; line-height: 1.2; font-weight: 400; text-transform: uppercase;color:#000; 
 		}
 
 /* CLIENT */
@@ -1260,7 +1261,7 @@ body {
 		display: none;
 		}
 	.media-box img {
-		display: block; width: 100%;
+		display: block; width: 100%;height:200px;
 		}	
 	.media-box .mask {
 		opacity: 0; filter: alpha(opacity = 0); position: absolute; width: 100%; height: 100%; top: 0; left: 0; bottom: 0; right: 0; text-align: center; overflow: hidden; background: #33475D; background: rgba(51, 71, 93, 0.6);
@@ -1271,18 +1272,7 @@ body {
 	.media-box .mask:before {
 		position: absolute; left: 50%; top: 50%; margin: -33px 0 0 -33px; width: 66px; line-height: 66px; font-size: 66px; text-align: center; content: "\e69d"; color: #fff;
 		}
-	.video.hentry .mask:before {
-		content: "\e6a5";
-		}
-	.audio.hentry .mask:before {
-		content: "\e62f";
-		}
-	.image.hentry .mask:before {
-		content: "\e6bf"
-		}
-	.url.hentry .mask:before {
-		content: "\e6bc";
-		}
+	
 
 /* LATEST POSTS */
 .latest-posts {

@@ -574,7 +574,7 @@
 	content: "\e66c";
 }
 .pe-7s-chat:before {
-	content: "\e66d";
+	/* content: "\e66d"; */
 }
 .pe-7s-cart:before {
 	content: "\e66e";
